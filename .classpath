@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="RecursionPractice"/>
+	<classpathentry kind="src" path="Project1_Array"/>
+	<classpathentry kind="src" path="SingleLinkedList"/>
+	<classpathentry kind="src" path="CircularLinkedList"/>
+	<classpathentry kind="src" path="DoublyLinkedList"/>
+	<classpathentry kind="src" path="CircularDoubly LinkedList"/>
+	<classpathentry kind="src" path="LinkedListPractice1"/>
+	<classpathentry kind="src" path="Stack_Implementation"/>
+	<classpathentry kind="src" path="QueueImplementation"/>
+	<classpathentry kind="src" path="BinaryTreeImplementation"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
