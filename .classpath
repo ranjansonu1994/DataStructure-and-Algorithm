@@ -7,7 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="RecursionPractice"/>
 	<classpathentry kind="src" path="Project1_Array"/>
-	<classpathentry kind="src" path="SingleLinkedList"/>
 	<classpathentry kind="src" path="CircularLinkedList"/>
 	<classpathentry kind="src" path="DoublyLinkedList"/>
 	<classpathentry kind="src" path="CircularDoubly LinkedList"/>
@@ -15,5 +14,9 @@
 	<classpathentry kind="src" path="Stack_Implementation"/>
 	<classpathentry kind="src" path="QueueImplementation"/>
 	<classpathentry kind="src" path="BinaryTreeImplementation"/>
+	<classpathentry kind="src" path="AVLTreeImplementation"/>
+	<classpathentry kind="src" path="TrieImplementatiom"/>
+	<classpathentry kind="src" path="hashingImplementation"/>
+	<classpathentry kind="src" path="Sorting Algorithms"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

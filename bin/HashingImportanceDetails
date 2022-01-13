@@ -1,0 +1,79 @@
+*WHAT IS HASHING?
+Method of sorting and indexing data , the large amount of data to be indexed using keys commonly created by formulas
+
+*WHY HASHING??
+It is time efficient  in case  of SEARCH Operation i.e O(1)-->with less collision
+                                                       O(N)-->with huge collision
+
+*HASHING TERMINOLOGY 
+
+1. Hash Function: Magic function we have used to find the Hash value of the data or key we want to insert or search.
+2. Key: Input  data by a user
+3. Hash value: A value  that is returned  by hash function.
+4. Hash table: It is a data structure which implements  an associative  array  abstract  data type, a structure  that can map keys
+               to values.
+5. Collision: A collision occurs  when two different keys to a hash function produce the same output.
+
+*HASH FUNCTIONS
+
+1. For Integer
+
+   Mod Function Is Used
+   
+   int mod(int num,int cellNum)
+   {
+     return num%cellNum;
+   }
+
+   mod(400,24) -->16
+   mod(700,24) -->4
+
+2. For String
+
+   ASCII Function
+   
+   int modASCII(String word,int cellNum)
+   {
+   int total=0;
+   for(int i=0;i<word.length();i++)
+   {
+     total+=word.charAt(i);
+     Syso(total);
+   }
+   return total%cellNum;
+   }
+   
+   mod("ABC",24)-->6
+
+Properties of good hash Functions
+
+-->It distributes the hash values uniformly across  hash tables
+-->It has to use  all the Input data
+
+*COLLISION RESOLUTION TECHNIQUES
+
+1. Direct Chaining
+
+   Implements  the buckets as linked list. Colliding elements are stored in this lists
+
+2. Open Adressing
+
+   a. Linear Probing
+   b. Quadratic Probing
+   c. Double Hashing
+          
+ *HASH TABLE IS FULL ? What woold happen??
+ 
+ In Direct Chaining this situation does not arise.
+ In open addressing create 2X  size of current Hash Table  and recall hashing for current keys
+ 
+ *COLLISION RESOLUTION TECHNIQUE -Linear Probing(Insert)
+ OPEN ADDRESSING : Colliding elements are stored in other vacant buckets .During storage and lookup these are 
+ found through so called probing
+ 
+ Linear Probing : It places 
+ 
+ It is type of open addressing , where colliding data got stored in next following vacant palace
+ 
+                                                     
+Quadratic Probic : adding arbitrary quadratic polynomial to the index until an empty cell is found.

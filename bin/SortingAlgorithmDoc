@@ -1,0 +1,66 @@
+WHAT IS SORTING??
+Arranging data in a particular format , either ascending or descending order.
+
+TYPES OF SORTING??
+Sorting -->Space Used-->In place : Sorting Algorithm which does not require any extra space for sorting e.g Bubble Sort
+       |            |-->Out of Place : Sorting Algorithm which does  require any extra space for sorting e.g Merge Sort
+       |
+       |-->Stability -->Stable : After sorting the contents does not change the sequence of similar content in which they appear e.g Insertion sort
+                    |-->Unstable : After sorting the contents does  change the sequence of similar content in which they appear e.g Quick sort
+
+SORTING TERMINOLOGY??
+Increasing ,decreasing , non increasing ,non decreasing order.
+
+Bubble sort Algorithm:Also referred as sinking sort.
+-Repeatedly compare each pair of adjacent items and swap them if they are in wrong order.
+ TC: O(N*N) , SC: O(1)
+ 
+ When to use Bubble sort??
+ - when the  input is almost sorted
+ - Space is a concern
+ - Easy to implement 
+ 
+ When to avoid bubble sort ??
+ - Average time complexity is poor.
+ 
+ Selection Sort Algorithm : we repeatedly find min element and move it to the sorted  part of array to make unsorted part sorted.
+ When to use selection sort ?
+ - When we have  insufficient memory
+ - Easy to implement
+ 
+ When to avoid Selection sort?
+ - When time is a concern
+ 
+ TC: O(N*N) SC:O(1)
+ 
+ Insertion Sort Algorithm: 
+ 
+ Divide the  given array into two part .
+ Take first element from unsorted array  and find its correct position in sorted array.
+ Repeat until unsorted array is empty.
+ 
+ When to use Insertion sort?
+ - When we have insufficient memory
+ - Easy to implement
+ - When we have continuous in flow of numbers and we want to keep them sorted.
+ 
+ When to avoid insertion sort?
+ -when time is a concern.
+ 
+ TC : O(N*N) SC:O(1)
+ 
+ Bucket Sort Algorithm:
+ 
+ Create buckets and distribute  elements of array  into buckets 
+ Sort bucket individually
+ Merge bucket after sorting
+ 
+ Number of buckets =round(sqrt(number of elements))
+ appropriate bucket=ceil(Value*number of buckets /maxValue)
+ 
+ When to use bucket sort??
+ -When input uniformly distributed over range
+ When to avoid bucket sort??
+ -When space is a concern 
+
+ 
